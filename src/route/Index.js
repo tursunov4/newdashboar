@@ -132,7 +132,7 @@ const Pages = () => {
 
   return (
     <Routes>
-      <Route path={`${process.env.PUBLIC_URL}`} element={<Layout />}>
+      <Route path={"/"} element={<Layout />}>
         <Route index element={<Homepage />}></Route>
         <Route path="crypto" element={<Crypto />}></Route>
         <Route path="sales" element={<Sales />}></Route>
